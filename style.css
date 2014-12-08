@@ -4,7 +4,7 @@ body {
 	-webkit-font-smoothing:antialiased;
 }
 
-h1, button, .sidebar { font-family: 'robotomedium'; }
+h1, .btn , .sidebar { font-family: 'robotomedium'; }
 h1, .nav > .active > a { color: #56B2AB; }
 h1 {
 	text-transform: uppercase;
@@ -67,6 +67,9 @@ h1 {
 
 .link-source { padding-top: 10px; }
 
+img.capture {
+	margin: 10px 20px 20px 0px;
+}
 
 .shadow {
   -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.4);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
