@@ -3,19 +3,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./src/css/style.css">
   <title>Cat to Ten SMS</title>
 </head>
 
 <body data-spy="scroll" data-target=".sidebar">
 	<div class="header" id="download">
 		<div class="container">
-			<object type="image/svg+xml" data="img/logo.svg" width="330"></object>
+			<object type="image/svg+xml" data="./src/img/logo.svg" width="330"></object>
 			<p class="lead">The anti-bullying app</p>
-			<a href="CatTo10.apk" role="button" class="btn btn-lg shadow">Download the apk</a>
-			<p class="link-source"><a href="CatToTen-Pauline.zip">or download the source code</a></p>
+			<a href="./CatTo10.apk" role="button" class="btn btn-lg shadow">Download the apk</a>
+			<p class="link-source"><a href="./CatTo10App.zip">or download the source code</a></p>
 		</div>
 	</div>
 
@@ -24,7 +24,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="sidebar" data-spy="affix" data-offset-top="510">
-						<object type="image/svg+xml" class="shadow-svg" data="img/launcher.svg" width="128"></object>
+						<object type="image/svg+xml" class="shadow-svg" data="./src/img/launcher.svg" width="128"></object>
 						<ul class="nav">
 							<li><a href="#download">Download</a></li>
 							<li><a href="#team">Team Members</a></li>
@@ -41,13 +41,13 @@
 					<h1 id="description">App Description</h1>
 					<p>Cat To 10 is designed to curb cyber-bullying by warning users if their messages may be hurtful to the recipient before the messages are sent. The app is used as a layer above the native Android messaging app. Users type a message and indicate a recipient, and when they send the message, Cat To 10 takes the message and searches it for offensive phrases, which are kept in an SQLite database. Each offensive phrase has an associated Anger Score, and the message to be sent is analyzed and given an overall Anger Score.</p>
 
-					<img class="capture shadow" src="img/capture1.jpg"/ height="400">
-					<img class="capture shadow" src="img/capture2.jpg"/ height="400">
+					<img class="capture shadow" src="./src/img/capture1.jpg"/ height="400">
+					<img class="capture shadow" src="./src/img/capture2.jpg"/ height="400">
 
 					<p>If the message's Anger Score is less than 5, then the message is passed to the native Android messaging app so that the user can send it. However, if the message's Anger Score is greater than or equal to 5, a dialog box warns the user that his or her message may be hurtful to the recipient. The user has two options: either edit the message before sending or send the message as is. If the user chooses the former option, then he or she has the opportunity to edit the message, after which the message will be re-analyzed in the same manner as the original message. If the user chooses to send the message as is, he or she will first need to click through 10 pictures of cats, which will hopefully calm the user down and put him or her into a more tranquil state of mind. After clicking through the 10 images, the message text is passed along to the native Android messaging app, and the user can send the message.</p>
 
-					<img class="capture shadow" src="img/capture3.jpg"/ height="400">
-					<img class="capture shadow" src="img/capture4.jpg"/ height="400">
+					<img class="capture shadow" src="./src/img/capture3.jpg"/ height="400">
+					<img class="capture shadow" src="./src/img/capture4.jpg"/ height="400">
 
 					<p>Cat To Ten was built for Android version 21, but works for Android version 18 or above. The app was built in the Eclipse IDE.</p>
 
@@ -60,7 +60,7 @@
 		</div>
 	</div>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="./src/js/jquery.min.js"></script>
+	<script src="./src/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
